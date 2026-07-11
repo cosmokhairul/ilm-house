@@ -4,10 +4,30 @@
   },
   "nav": {
     "home": "Home",
-    "prayer": "Learn Salah",
-    "quran": "Surahs of the Quran",
-    "duas": "Essential Duas",
-    "hadith": "Hadith"
+    "prayer": {
+      "label": "Learn Salah",
+      "all": "View All",
+      "wudu": "Rules of Wudu",
+      "method": "Method of Salah",
+      "nullifiers": "Nullifiers of Salah"
+    },
+    "quran": {
+      "label": "Surahs of the Quran",
+      "all": "All Surahs",
+      "popular": "Popular Surahs"
+    },
+    "duas": {
+      "label": "Essential Duas",
+      "all": "All Duas",
+      "daily": "Daily Duas",
+      "special": "Special Occasion Duas"
+    },
+    "hadith": {
+      "label": "Hadith",
+      "all": "All Hadith",
+      "topics": "Hadith by Topic",
+      "collections": "Collections"
+    }
   },
   "theme": {
     "light": "Light",

@@ -12,10 +12,10 @@ const Home = () => {
 
       <ul className="flex flex-wrap gap-3 text-sm">
         <li className="badge badge-outline">{t("nav.home")}</li>
-        <li className="badge badge-outline">{t("nav.prayer")}</li>
-        <li className="badge badge-outline">{t("nav.quran")}</li>
-        <li className="badge badge-outline">{t("nav.duas")}</li>
-        <li className="badge badge-outline">{t("nav.hadith")}</li>
+        <li className="badge badge-outline">{t("nav.prayer.label")}</li>
+        <li className="badge badge-outline">{t("nav.quran.label")}</li>
+        <li className="badge badge-outline">{t("nav.duas.label")}</li>
+        <li className="badge badge-outline">{t("nav.hadith.label")}</li>
       </ul>
 
       <div className="flex flex-wrap gap-3">
