@@ -1,9 +1,30 @@
-
-
 const Home = () => {
   return (
-    <div>
-        <h1>this is home</h1>
+    <div className="p-6 space-y-6">
+      <h1 className="text-3xl font-bold text-primary">ইলমঘর থিম প্রিভিউ</h1>
+      <p className="text-base-content">
+        এটি একটি সাময়িক প্রিভিউ — থিম, ফন্ট ও কালার যাচাইয়ের জন্য।
+      </p>
+
+      <div className="flex flex-wrap gap-3">
+        <button className="btn btn-primary">Primary</button>
+        <button className="btn btn-secondary">Secondary</button>
+        <button className="btn btn-accent">Accent</button>
+        <button className="btn btn-neutral">Neutral</button>
+        <button className="btn btn-info">Info</button>
+        <button className="btn btn-success">Success</button>
+        <button className="btn btn-warning">Warning</button>
+        <button className="btn btn-error">Error</button>
+      </div>
+
+      <div className="space-y-2">
+        <p className="font-heading text-xl">হিন্দ শিলিগুড়ি হেডিং ফন্ট নমুনা</p>
+        <p className="font-bengali">নোটো সান্স বাংলা — সাধারণ বাংলা টেক্সট নমুনা।</p>
+        <p className="font-english">Cabin — English text sample for the site.</p>
+        <p dir="rtl" className="font-arabic text-2xl">
+          بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+        </p>
+      </div>
     </div>
   )
 }

@@ -1,2 +1,114 @@
 @import "tailwindcss";
-@plugin "daisyui/index.js";
+
+@plugin "daisyui" {
+  themes: ilmghar-light --default, ilmghar-dark --prefersdark;
+}
+
+@plugin "daisyui/theme" {
+  name: "ilmghar-light";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+  --color-base-100: #C8EED8;
+  --color-base-200: #BCE4CC;
+  --color-base-300: #A9D6BC;
+  --color-base-content: #0e1215;
+  --color-primary: #2E8B57;
+  --color-primary-content: #EFFBF4;
+  --color-secondary: #1A6640;
+  --color-secondary-content: #EFFBF4;
+  --color-accent: #4CAF82;
+  --color-accent-content: #0D3B26;
+  --color-neutral: #0D3B26;
+  --color-neutral-content: #C8EED8;
+  --color-info: #2E7DA6;
+  --color-info-content: #EFFBFC;
+  --color-success: #3F9D5D;
+  --color-success-content: #EFFBF4;
+  --color-warning: #C08A2E;
+  --color-warning-content: #1A1206;
+  --color-error: #B3413A;
+  --color-error-content: #FDF3F2;
+  --radius-selector: 1rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+  name: "ilmghar-dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: dark;
+  --color-base-100: #0e1215;
+  --color-base-200: #141a1e;
+  --color-base-300: #1b2226;
+  --color-base-content: #C8EED8;
+  --color-primary: #4CAF82;
+  --color-primary-content: #06120B;
+  --color-secondary: #2E8B57;
+  --color-secondary-content: #06120B;
+  --color-accent: #1A6640;
+  --color-accent-content: #C8EED8;
+  --color-neutral: #1B2226;
+  --color-neutral-content: #C8EED8;
+  --color-info: #4F9BC0;
+  --color-info-content: #05141C;
+  --color-success: #4CAF82;
+  --color-success-content: #06120B;
+  --color-warning: #D6A64C;
+  --color-warning-content: #1A1206;
+  --color-error: #C96760;
+  --color-error-content: #1C0908;
+  --radius-selector: 1rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@theme {
+  --font-bengali: "Noto Sans Bengali", sans-serif;
+  --font-heading: "Hind Siliguri", "Noto Sans Bengali", sans-serif;
+  --font-english: "Cabin", sans-serif;
+  --font-arabic: "Amiri Quran", "Traditional Arabic", serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-bengali);
+  }
+
+  html:lang(en) {
+    font-family: var(--font-english);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
+
+  html:lang(en) h1,
+  html:lang(en) h2,
+  html:lang(en) h3,
+  html:lang(en) h4,
+  html:lang(en) h5,
+  html:lang(en) h6 {
+    font-family: var(--font-english);
+  }
+
+  [dir="rtl"] {
+    font-family: var(--font-arabic);
+  }
+}
