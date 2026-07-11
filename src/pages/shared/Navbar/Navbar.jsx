@@ -1,8 +1,21 @@
+import { useTranslation } from "react-i18next";
+import ThemeToggle from "../../../components/ThemeToggle/ThemeToggle";
+import LanguageToggle from "../../../components/LanguageToggle/LanguageToggle";
 
 const Navbar = () => {
-  return (
-    <div><h2>this is navbar</h2></div>
-  )
-}
+  const { t } = useTranslation();
 
-export default Navbar
+  return (
+    <div className="navbar bg-base-100">
+      <div className="flex-1">
+        <h2 className="font-heading text-xl px-2">{t("app.name")}</h2>
+      </div>
+      <div className="flex-none flex items-center gap-2">
+        <LanguageToggle />
+        <ThemeToggle />
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;

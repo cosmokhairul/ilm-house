@@ -1,10 +1,22 @@
+import { useTranslation } from "react-i18next";
+
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="p-6 space-y-6">
-      <h1 className="text-3xl font-bold text-primary">ইলমঘর থিম প্রিভিউ</h1>
+      <h1 className="text-3xl font-bold text-primary">{t("app.name")} থিম প্রিভিউ</h1>
       <p className="text-base-content">
-        এটি একটি সাময়িক প্রিভিউ — থিম, ফন্ট ও কালার যাচাইয়ের জন্য।
+        এটি একটি সাময়িক প্রিভিউ — থিম, ফন্ট, কালার ও ভাষা যাচাইয়ের জন্য।
       </p>
+
+      <ul className="flex flex-wrap gap-3 text-sm">
+        <li className="badge badge-outline">{t("nav.home")}</li>
+        <li className="badge badge-outline">{t("nav.prayer")}</li>
+        <li className="badge badge-outline">{t("nav.quran")}</li>
+        <li className="badge badge-outline">{t("nav.duas")}</li>
+        <li className="badge badge-outline">{t("nav.hadith")}</li>
+      </ul>
 
       <div className="flex flex-wrap gap-3">
         <button className="btn btn-primary">Primary</button>

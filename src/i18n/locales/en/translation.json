@@ -1,0 +1,21 @@
+{
+  "app": {
+    "name": "IlmHouse"
+  },
+  "nav": {
+    "home": "Home",
+    "prayer": "Learn Salah",
+    "quran": "Surahs of the Quran",
+    "duas": "Essential Duas",
+    "hadith": "Hadith"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggleLabel": "Change theme"
+  },
+  "language": {
+    "toggleLabel": "Change language"
+  }
+}

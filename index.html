@@ -2,6 +2,22 @@
 <html lang="bn">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function () {
+        try {
+          var savedTheme = localStorage.getItem("ilmghar-theme");
+          if (savedTheme === "light") {
+            document.documentElement.setAttribute("data-theme", "ilmghar-light");
+          } else if (savedTheme === "dark") {
+            document.documentElement.setAttribute("data-theme", "ilmghar-dark");
+          }
+          var savedLang = localStorage.getItem("ilmghar-lang");
+          if (savedLang === "en") {
+            document.documentElement.lang = "en";
+          }
+        } catch (e) {}
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
