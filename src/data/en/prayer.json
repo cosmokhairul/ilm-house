@@ -1,0 +1,53 @@
+[
+  {
+    "id": "wudu",
+    "order": 1,
+    "title": "Rules of Wudu",
+    "summary": "The method of purifying the body before prayer.",
+    "steps": [
+      "Make the intention (niyyah) in the heart",
+      "Say \"Bismillah\"",
+      "Wash both hands up to the wrists three times",
+      "Rinse the mouth (or use miswak) three times",
+      "Sniff water into the nose and blow it out three times",
+      "Wash the entire face three times (hairline to chin, ear to ear)",
+      "Wash both arms up to and including the elbows three times (right first)",
+      "Wipe (masah) the head once",
+      "Wipe both ears",
+      "Wash both feet up to and including the ankles three times (right first)"
+    ]
+  },
+  {
+    "id": "method",
+    "order": 2,
+    "title": "Method of Salah",
+    "summary": "The step-by-step way the five daily prayers are performed.",
+    "steps": [
+      "Face the Qiblah and make the intention",
+      "Say the Takbeer al-Ihram (\"Allahu Akbar\") to begin",
+      "Recite the opening supplication, seeking refuge, and Bismillah",
+      "Recite Surah al-Fatihah and another surah",
+      "Perform Ruku (bowing) while glorifying Allah",
+      "Rise from Ruku and stand straight",
+      "Perform Sujood (prostration) twice, sitting briefly in between",
+      "Repeat this sequence for each rak'ah",
+      "In the final sitting, recite Tashahhud, Durood, and supplications",
+      "End the prayer with Taslim (salam)"
+    ]
+  },
+  {
+    "id": "nullifiers",
+    "order": 3,
+    "title": "Nullifiers of Salah",
+    "summary": "Actions and situations that invalidate the prayer.",
+    "steps": [
+      "Deliberately speaking",
+      "Laughing out loud",
+      "Losing wudu",
+      "Turning the chest away from the Qiblah",
+      "Eating or drinking during the prayer",
+      "Excessive continuous movement",
+      "Exposure of the parts of the body required to be covered (satr)"
+    ]
+  }
+]

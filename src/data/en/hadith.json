@@ -1,0 +1,46 @@
+[
+  {
+    "id": "niyyah",
+    "order": 1,
+    "category": "topics",
+    "arabic": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
+    "pronunciation": "Innamal-a'malu bin-niyyat, wa innama likulli-mri'in ma nawa",
+    "translation": "Actions are judged by intentions, and every person will get the reward according to what he has intended.",
+    "narrator": "Umar ibn al-Khattab (RA)",
+    "collectionName": "Sahih al-Bukhari & Sahih Muslim",
+    "reference": "Sahih al-Bukhari, Hadith 1"
+  },
+  {
+    "id": "smiling",
+    "order": 2,
+    "category": "topics",
+    "arabic": "تَبَسُّمُكَ فِي وَجْهِ أَخِيكَ لَكَ صَدَقَةٌ",
+    "pronunciation": "Tabassumuka fee wajhi akheeka laka sadaqah",
+    "translation": "Your smiling at your brother is charity for you.",
+    "narrator": "Abu Dharr (RA)",
+    "collectionName": "Jami' at-Tirmidhi",
+    "reference": "Tirmidhi, Hadith 1956"
+  },
+  {
+    "id": "seeking-knowledge",
+    "order": 3,
+    "category": "collections",
+    "arabic": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ",
+    "pronunciation": "Man salaka tareeqan yaltamisu feehi 'ilman, sahhalallahu lahu bihi tareeqan ilal-jannah",
+    "translation": "Whoever follows a path in pursuit of knowledge, Allah will make easy for him a path to Paradise.",
+    "narrator": "Abu Hurairah (RA)",
+    "collectionName": "Sahih Muslim",
+    "reference": "Sahih Muslim, Hadith 2699"
+  },
+  {
+    "id": "true-muslim",
+    "order": 4,
+    "category": "collections",
+    "arabic": "الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
+    "pronunciation": "Al-muslimu man salimal-muslimoona min lisanihi wa yadihi",
+    "translation": "The Muslim is one from whose tongue and hand the Muslims are safe.",
+    "narrator": "Abdullah ibn Amr (RA)",
+    "collectionName": "Sahih al-Bukhari",
+    "reference": "Sahih al-Bukhari, Hadith 10"
+  }
+]

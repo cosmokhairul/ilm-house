@@ -43,6 +43,9 @@
     "translation": "Translation",
     "reference": "Reference",
     "notFound": "Content not found.",
-    "comingSoon": "Content coming soon."
+    "comingSoon": "Content coming soon.",
+    "verses": "Verses",
+    "narrator": "Narrator",
+    "collection": "Collection"
   }
 }
