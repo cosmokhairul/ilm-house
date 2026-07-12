@@ -11,7 +11,7 @@ const HadithDetail = () => {
 
   if (!hadith) {
     return (
-      <div className="space-y-4 p-6 text-center">
+      <div className="space-y-4 p-4 sm:p-6 text-center">
         <h1 className="text-2xl font-bold text-primary font-heading">{t("nav.hadith.label")}</h1>
         <p className="text-base-content/70">{t("content.notFound")}</p>
         <Link to="/hadith" className="btn btn-primary btn-sm">
@@ -22,14 +22,14 @@ const HadithDetail = () => {
   }
 
   return (
-    <div className="mx-auto max-w-2xl space-y-6 p-6">
+    <div className="mx-auto max-w-2xl space-y-6 p-4 sm:p-6">
       <div>
         <span className="badge badge-outline mb-2">{t(`nav.hadith.${hadith.category}`)}</span>
         <h1 className="text-2xl font-bold text-primary font-heading">{hadith.collectionName}</h1>
       </div>
 
-      <div className="card bg-base-100 border-base-300 space-y-4 border p-6">
-        <ArabicBlock className="text-2xl">{hadith.arabic}</ArabicBlock>
+      <div className="card bg-base-100 border-base-300 space-y-4 border p-4 sm:p-6">
+        <ArabicBlock className="text-xl sm:text-2xl">{hadith.arabic}</ArabicBlock>
 
         <div>
           <p className="text-base-content/60 mb-1 text-sm">{t("content.pronunciation")}</p>

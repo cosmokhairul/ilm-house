@@ -84,6 +84,11 @@
 @layer base {
   html {
     font-family: var(--font-bengali);
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 
   html:lang(en) {

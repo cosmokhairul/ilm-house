@@ -15,11 +15,13 @@ const Home = () => {
 
   return (
     <div>
-      <section className="hero bg-base-200 px-4 py-12">
-        <div className="hero-content flex-col gap-8 text-center lg:flex-row-reverse lg:text-left">
-          <img src={heroImg} className="w-full max-w-xs rounded-lg" alt="" />
+      <section className="hero bg-base-200 px-4 py-8 sm:py-12">
+        <div className="hero-content flex-col gap-6 text-center sm:gap-8 lg:flex-row-reverse lg:text-left">
+          <img src={heroImg} className="w-full max-w-[12rem] rounded-lg sm:max-w-xs" alt="" />
           <div>
-            <h1 className="text-4xl font-bold text-primary font-heading">{t("app.name")}</h1>
+            <h1 className="text-3xl font-bold text-primary font-heading sm:text-4xl">
+              {t("app.name")}
+            </h1>
             <p className="text-base-content/80 max-w-md py-4">{t("home.tagline")}</p>
             <Link to="/duas" className="btn btn-primary">
               {t("home.cta")}
@@ -28,7 +30,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="space-y-6 px-4 py-10">
+      <section className="space-y-6 px-4 py-8 sm:py-10">
         <h2 className="text-center text-2xl font-bold font-heading">{t("home.exploreTitle")}</h2>
         <div className="mx-auto grid max-w-4xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {SECTIONS.map(({ key, path, Icon }) => (

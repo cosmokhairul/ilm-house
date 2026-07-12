@@ -66,7 +66,7 @@ const Navbar = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="navbar bg-base-100 shadow-sm px-4">
+    <div className="navbar bg-base-100 shadow-sm px-2 sm:px-4">
       <div className="navbar-start">
         <div className="dropdown">
           <div
@@ -82,7 +82,7 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-64 p-2 shadow"
           />
         </div>
-        <Link to="/" className="btn btn-ghost font-heading text-xl">
+        <Link to="/" className="btn btn-ghost font-heading px-2 text-lg sm:text-xl">
           {t("app.name")}
         </Link>
       </div>
@@ -91,7 +91,7 @@ const Navbar = () => {
         <NavMenu t={t} className="menu menu-horizontal px-1" />
       </div>
 
-      <div className="navbar-end gap-2">
+      <div className="navbar-end gap-1 sm:gap-2">
         <LanguageToggle />
         <ThemeToggle />
       </div>

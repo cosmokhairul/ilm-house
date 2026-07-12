@@ -18,10 +18,10 @@ const ThemeToggle = () => {
       <div
         tabIndex={0}
         role="button"
-        className="btn btn-ghost btn-circle"
+        className="btn btn-ghost btn-circle btn-sm sm:btn-md"
         aria-label={t("theme.toggleLabel")}
       >
-        <CurrentIcon className="h-5 w-5" />
+        <CurrentIcon className="h-4 w-4 sm:h-5 sm:w-5" />
       </div>
       <ul
         tabIndex={0}

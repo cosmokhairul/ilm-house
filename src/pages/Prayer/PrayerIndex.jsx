@@ -8,7 +8,7 @@ const PrayerIndex = () => {
   const sorted = [...lessons].sort((a, b) => a.order - b.order);
 
   return (
-    <div className="space-y-4 p-6">
+    <div className="space-y-4 p-4 sm:p-6">
       <h1 className="text-2xl font-bold text-primary font-heading">{t("nav.prayer.label")}</h1>
 
       {sorted.length === 0 ? (

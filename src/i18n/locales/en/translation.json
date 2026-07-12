@@ -52,5 +52,10 @@
     "tagline": "Learn Salah, the Quran, essential duas, and hadith — in Bangla and English, simply and reliably.",
     "cta": "Start Learning",
     "exploreTitle": "Explore IlmHouse"
+  },
+  "footer": {
+    "tagline": "A bilingual (Bangla-English) platform for learning Salah, the Quran, duas, and hadith.",
+    "quickLinks": "Quick Links",
+    "rights": "All rights reserved."
   }
 }

@@ -11,7 +11,7 @@ const SurahDetail = () => {
 
   if (!surah) {
     return (
-      <div className="space-y-4 p-6 text-center">
+      <div className="space-y-4 p-4 sm:p-6 text-center">
         <h1 className="text-2xl font-bold text-primary font-heading">{t("nav.quran.label")}</h1>
         <p className="text-base-content/70">{t("content.notFound")}</p>
         <Link to="/quran" className="btn btn-primary btn-sm">
@@ -22,9 +22,9 @@ const SurahDetail = () => {
   }
 
   return (
-    <div className="mx-auto max-w-2xl space-y-6 p-6">
+    <div className="mx-auto max-w-2xl space-y-6 p-4 sm:p-6">
       <div>
-        <p dir="rtl" className="font-arabic text-3xl text-primary">
+        <p dir="rtl" className="font-arabic text-2xl sm:text-3xl text-primary">
           {surah.arabicName}
         </p>
         <h1 className="text-2xl font-bold font-heading">
@@ -37,10 +37,10 @@ const SurahDetail = () => {
 
       <div className="space-y-4">
         {surah.verses.map((verse) => (
-          <div key={verse.number} className="card bg-base-100 border-base-300 space-y-3 border p-6">
+          <div key={verse.number} className="card bg-base-100 border-base-300 space-y-3 border p-4 sm:p-6">
             <div className="flex items-start gap-3">
               <span className="badge badge-primary badge-sm shrink-0">{verse.number}</span>
-              <ArabicBlock className="flex-1 text-2xl">{verse.arabic}</ArabicBlock>
+              <ArabicBlock className="flex-1 text-xl sm:text-2xl">{verse.arabic}</ArabicBlock>
             </div>
             <div>
               <p className="text-base-content/60 mb-1 text-sm">{t("content.pronunciation")}</p>
