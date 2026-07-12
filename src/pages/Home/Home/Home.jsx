@@ -1,44 +1,52 @@
+import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
+import { FaBookOpen, FaMosque, FaPray, FaScroll } from "react-icons/fa";
+import heroImg from "../../../assets/hero.png";
+
+const SECTIONS = [
+  { key: "prayer", path: "/prayer", Icon: FaPray },
+  { key: "quran", path: "/quran", Icon: FaBookOpen },
+  { key: "duas", path: "/duas", Icon: FaMosque },
+  { key: "hadith", path: "/hadith", Icon: FaScroll },
+];
 
 const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="p-6 space-y-6">
-      <h1 className="text-3xl font-bold text-primary">{t("app.name")} থিম প্রিভিউ</h1>
-      <p className="text-base-content">
-        এটি একটি সাময়িক প্রিভিউ — থিম, ফন্ট, কালার ও ভাষা যাচাইয়ের জন্য।
-      </p>
+    <div>
+      <section className="hero bg-base-200 px-4 py-12">
+        <div className="hero-content flex-col gap-8 text-center lg:flex-row-reverse lg:text-left">
+          <img src={heroImg} className="w-full max-w-xs rounded-lg" alt="" />
+          <div>
+            <h1 className="text-4xl font-bold text-primary font-heading">{t("app.name")}</h1>
+            <p className="text-base-content/80 max-w-md py-4">{t("home.tagline")}</p>
+            <Link to="/duas" className="btn btn-primary">
+              {t("home.cta")}
+            </Link>
+          </div>
+        </div>
+      </section>
 
-      <ul className="flex flex-wrap gap-3 text-sm">
-        <li className="badge badge-outline">{t("nav.home")}</li>
-        <li className="badge badge-outline">{t("nav.prayer.label")}</li>
-        <li className="badge badge-outline">{t("nav.quran.label")}</li>
-        <li className="badge badge-outline">{t("nav.duas.label")}</li>
-        <li className="badge badge-outline">{t("nav.hadith.label")}</li>
-      </ul>
-
-      <div className="flex flex-wrap gap-3">
-        <button className="btn btn-primary">Primary</button>
-        <button className="btn btn-secondary">Secondary</button>
-        <button className="btn btn-accent">Accent</button>
-        <button className="btn btn-neutral">Neutral</button>
-        <button className="btn btn-info">Info</button>
-        <button className="btn btn-success">Success</button>
-        <button className="btn btn-warning">Warning</button>
-        <button className="btn btn-error">Error</button>
-      </div>
-
-      <div className="space-y-2">
-        <p className="font-heading text-xl">হিন্দ শিলিগুড়ি হেডিং ফন্ট নমুনা</p>
-        <p className="font-bengali">নোটো সান্স বাংলা — সাধারণ বাংলা টেক্সট নমুনা।</p>
-        <p className="font-english">Cabin — English text sample for the site.</p>
-        <p dir="rtl" className="font-arabic text-2xl">
-          بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
-        </p>
-      </div>
+      <section className="space-y-6 px-4 py-10">
+        <h2 className="text-center text-2xl font-bold font-heading">{t("home.exploreTitle")}</h2>
+        <div className="mx-auto grid max-w-4xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {SECTIONS.map(({ key, path, Icon }) => (
+            <Link
+              key={key}
+              to={path}
+              className="card bg-base-100 border-base-300 hover:border-primary text-center transition-colors"
+            >
+              <div className="card-body items-center gap-2">
+                <Icon className="text-primary h-8 w-8" />
+                <h3 className="card-title font-heading text-base">{t(`nav.${key}.label`)}</h3>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

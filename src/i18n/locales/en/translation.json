@@ -47,5 +47,10 @@
     "verses": "Verses",
     "narrator": "Narrator",
     "collection": "Collection"
+  },
+  "home": {
+    "tagline": "Learn Salah, the Quran, essential duas, and hadith — in Bangla and English, simply and reliably.",
+    "cta": "Start Learning",
+    "exploreTitle": "Explore IlmHouse"
   }
 }
