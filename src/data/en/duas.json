@@ -1,0 +1,72 @@
+[
+  {
+    "id": "before-eating",
+    "category": "daily",
+    "order": 1,
+    "title": "Dua Before Eating",
+    "arabic": "بِسْمِ اللَّهِ",
+    "pronunciation": "Bismillah",
+    "translation": "In the name of Allah.",
+    "reference": "Sahih Bukhari & Muslim"
+  },
+  {
+    "id": "after-eating",
+    "category": "daily",
+    "order": 2,
+    "title": "Dua After Eating",
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+    "pronunciation": "Alhamdu lillahil-lathee at'amanee hatha, wa razaqaneehi, min ghayri hawlin minnee wa la quwwah",
+    "translation": "Praise be to Allah who has fed me this and provided it for me without any might or power on my part.",
+    "reference": "Abu Dawud, At-Tirmidhi (Hisnul Muslim)"
+  },
+  {
+    "id": "waking-up",
+    "category": "daily",
+    "order": 3,
+    "title": "Dua Upon Waking Up",
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+    "pronunciation": "Alhamdu lillahil-lathee ahyana ba'da ma amatana wa ilayhin-nushoor",
+    "translation": "Praise be to Allah who gave us life after having caused us to die, and to Him is the resurrection.",
+    "reference": "Sahih Bukhari"
+  },
+  {
+    "id": "entering-home",
+    "category": "daily",
+    "order": 4,
+    "title": "Dua for Entering Home",
+    "arabic": "بِسْمِ اللَّهِ وَلَجْنَا، وَبِسْمِ اللَّهِ خَرَجْنَا، وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا",
+    "pronunciation": "Bismillahi walajna, wa bismillahi kharajna, wa 'ala Allahi Rabbina tawakkalna",
+    "translation": "In the name of Allah we enter, and in the name of Allah we leave, and upon Allah our Lord we place our trust.",
+    "reference": "Abu Dawud (Hisnul Muslim)"
+  },
+  {
+    "id": "travel",
+    "category": "special",
+    "order": 1,
+    "title": "Dua for Travel",
+    "arabic": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ",
+    "pronunciation": "Subhanal-lathee sakhkhara lana hatha wama kunna lahu muqrineen, wa inna ila Rabbina lamunqaliboon",
+    "translation": "Glory is to Him Who has subjected this to us, and we could never have accomplished this by ourselves. And indeed, to our Lord we will return.",
+    "reference": "Quran 43:13-14 (Sahih Muslim)"
+  },
+  {
+    "id": "visiting-sick",
+    "category": "special",
+    "order": 2,
+    "title": "Dua for Visiting the Sick",
+    "arabic": "لَا بَأْسَ، طَهُورٌ إِنْ شَاءَ اللَّهُ",
+    "pronunciation": "La ba'sa, tahoorun in sha Allah",
+    "translation": "No harm, it is a purification, if Allah wills.",
+    "reference": "Sahih Bukhari"
+  },
+  {
+    "id": "distress-yunus",
+    "category": "special",
+    "order": 3,
+    "title": "Dua for Times of Distress (Dua of Yunus)",
+    "arabic": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+    "pronunciation": "La ilaha illa anta subhanaka innee kuntu minaz-zalimeen",
+    "translation": "There is no god but You, glory be to You; indeed, I was among the wrongdoers.",
+    "reference": "Quran 21:87"
+  }
+]
