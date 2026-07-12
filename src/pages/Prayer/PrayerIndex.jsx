@@ -8,13 +8,13 @@ const PrayerIndex = () => {
   const sorted = [...lessons].sort((a, b) => a.order - b.order);
 
   return (
-    <div className="space-y-4 p-4 sm:p-6">
+    <div className="mx-auto max-w-6xl space-y-4 p-4 sm:p-6 md:px-6 lg:p-8 xl:px-8">
       <h1 className="text-2xl font-bold text-primary font-heading">{t("nav.prayer.label")}</h1>
 
       {sorted.length === 0 ? (
         <p className="text-base-content/70">{t("content.comingSoon")}</p>
       ) : (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {sorted.map((lesson) => (
             <SectionCard
               key={lesson.id}

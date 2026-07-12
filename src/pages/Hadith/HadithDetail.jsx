@@ -22,13 +22,13 @@ const HadithDetail = () => {
   }
 
   return (
-    <div className="mx-auto max-w-2xl space-y-6 p-4 sm:p-6">
+    <div className="mx-auto max-w-2xl space-y-6 p-4 sm:p-6 md:p-6 lg:max-w-3xl lg:p-8">
       <div>
         <span className="badge badge-outline mb-2">{t(`nav.hadith.${hadith.category}`)}</span>
         <h1 className="text-2xl font-bold text-primary font-heading">{hadith.collectionName}</h1>
       </div>
 
-      <div className="card bg-base-100 border-base-300 space-y-4 border p-4 sm:p-6">
+      <div className="card bg-base-100 border-base-300 space-y-4 border p-4 sm:p-6 lg:p-8">
         <ArabicBlock className="text-xl sm:text-2xl">{hadith.arabic}</ArabicBlock>
 
         <div>

@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-neutral text-neutral-content">
-      <div className="footer sm:footer-horizontal mx-auto max-w-4xl px-4 py-10">
+      <div className="footer sm:footer-horizontal mx-auto max-w-5xl px-4 py-10 md:px-6 xl:px-8">
         <nav>
           <Link to="/" className="footer-title font-heading">
             {t("app.name")}

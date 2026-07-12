@@ -66,34 +66,36 @@ const Navbar = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="navbar bg-base-100 shadow-sm px-2 sm:px-4">
-      <div className="navbar-start">
-        <div className="dropdown">
-          <div
-            tabIndex={0}
-            role="button"
-            className="btn btn-ghost lg:hidden"
-            aria-label={t("nav.home")}
-          >
-            <FiMenu className="h-5 w-5" />
+    <div className="navbar bg-base-100 shadow-sm">
+      <div className="mx-auto flex w-full max-w-7xl items-center px-2 sm:px-4 md:px-6 xl:px-8">
+        <div className="navbar-start">
+          <div className="dropdown">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost lg:hidden"
+              aria-label={t("nav.home")}
+            >
+              <FiMenu className="h-5 w-5" />
+            </div>
+            <NavMenu
+              t={t}
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-64 p-2 shadow"
+            />
           </div>
-          <NavMenu
-            t={t}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-64 p-2 shadow"
-          />
+          <Link to="/" className="btn btn-ghost font-heading px-2 text-lg sm:text-xl">
+            {t("app.name")}
+          </Link>
         </div>
-        <Link to="/" className="btn btn-ghost font-heading px-2 text-lg sm:text-xl">
-          {t("app.name")}
-        </Link>
-      </div>
 
-      <div className="navbar-center hidden lg:flex">
-        <NavMenu t={t} className="menu menu-horizontal px-1" />
-      </div>
+        <div className="navbar-center hidden lg:flex">
+          <NavMenu t={t} className="menu menu-horizontal px-1" />
+        </div>
 
-      <div className="navbar-end gap-1 sm:gap-2">
-        <LanguageToggle />
-        <ThemeToggle />
+        <div className="navbar-end gap-1 sm:gap-2">
+          <LanguageToggle />
+          <ThemeToggle />
+        </div>
       </div>
     </div>
   );

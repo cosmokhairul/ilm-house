@@ -22,7 +22,7 @@ const SurahDetail = () => {
   }
 
   return (
-    <div className="mx-auto max-w-2xl space-y-6 p-4 sm:p-6">
+    <div className="mx-auto max-w-2xl space-y-6 p-4 sm:p-6 md:p-6 lg:max-w-3xl lg:p-8">
       <div>
         <p dir="rtl" className="font-arabic text-2xl sm:text-3xl text-primary">
           {surah.arabicName}
@@ -37,7 +37,10 @@ const SurahDetail = () => {
 
       <div className="space-y-4">
         {surah.verses.map((verse) => (
-          <div key={verse.number} className="card bg-base-100 border-base-300 space-y-3 border p-4 sm:p-6">
+          <div
+            key={verse.number}
+            className="card bg-base-100 border-base-300 space-y-3 border p-4 sm:p-6 lg:p-8"
+          >
             <div className="flex items-start gap-3">
               <span className="badge badge-primary badge-sm shrink-0">{verse.number}</span>
               <ArabicBlock className="flex-1 text-xl sm:text-2xl">{verse.arabic}</ArabicBlock>

@@ -21,13 +21,13 @@ const PrayerDetail = () => {
   }
 
   return (
-    <div className="mx-auto max-w-2xl space-y-6 p-4 sm:p-6">
+    <div className="mx-auto max-w-2xl space-y-6 p-4 sm:p-6 md:p-6 lg:max-w-3xl lg:p-8">
       <div>
         <h1 className="text-2xl font-bold text-primary font-heading">{lesson.title}</h1>
         <p className="text-base-content/70 mt-1">{lesson.summary}</p>
       </div>
 
-      <ol className="card bg-base-100 border-base-300 list-decimal space-y-2 border p-4 sm:p-6 pl-8 sm:pl-10">
+      <ol className="card bg-base-100 border-base-300 list-decimal space-y-2 border p-4 sm:p-6 lg:p-8 pl-8 sm:pl-10">
         {lesson.steps.map((step, index) => (
           <li key={index}>{step}</li>
         ))}
