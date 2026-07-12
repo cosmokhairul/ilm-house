@@ -37,5 +37,12 @@
   },
   "language": {
     "toggleLabel": "ভাষা পরিবর্তন করুন"
+  },
+  "content": {
+    "pronunciation": "উচ্চারণ",
+    "translation": "অনুবাদ",
+    "reference": "সূত্র",
+    "notFound": "কনটেন্টটি খুঁজে পাওয়া যায়নি।",
+    "comingSoon": "কনটেন্ট শীঘ্রই আসছে।"
   }
 }

@@ -37,5 +37,12 @@
   },
   "language": {
     "toggleLabel": "Change language"
+  },
+  "content": {
+    "pronunciation": "Pronunciation",
+    "translation": "Translation",
+    "reference": "Reference",
+    "notFound": "Content not found.",
+    "comingSoon": "Content coming soon."
   }
 }
