@@ -2,20 +2,125 @@
   {
     "id": "wudu",
     "order": 1,
-    "title": "Rules of Wudu",
-    "summary": "The method of purifying the body before prayer.",
+    "title": "Wudu",
+    "summary": "The correct method of purifying the body before prayer, Tawaf, and touching the Quran.",
+    "intro": "Purity is a prerequisite for Salah, Tawaf, and touching the Quran, and Wudu is one of the main means of attaining it. The method of Wudu is the same for both men and women; only in a couple of matters is there a slight difference for women, which is mentioned separately below.",
+    "fardsHeading": "Fards (Obligatory Acts) of Wudu (4)",
+    "fardsIntro": "For Wudu to be valid, the following four acts must be performed. If even one of them is omitted, the Wudu is not valid:",
+    "fards": [
+      "Washing the entire face once (from the hairline on the forehead to below the chin, and from one ear to the other).",
+      "Washing both arms including the elbows.",
+      "Wiping (masah) one-quarter of the head.",
+      "Washing both feet including the ankles."
+    ],
+    "stepsHeading": "How to Perform Wudu (Step by Step)",
     "steps": [
-      "Make the intention (niyyah) in the heart",
-      "Say \"Bismillah\"",
-      "Wash both hands up to the wrists three times",
-      "Rinse the mouth (or use miswak) three times",
-      "Sniff water into the nose and blow it out three times",
-      "Wash the entire face three times (hairline to chin, ear to ear)",
-      "Wash both arms up to and including the elbows three times (right first)",
-      "Wipe (masah) the head once",
-      "Wipe both ears",
-      "Wash both feet up to and including the ankles three times (right first)"
-    ]
+      {
+        "title": "Intention and Bismillah",
+        "detail": "Make the intention (niyyah) for purification in your heart, and begin Wudu by saying \"Bismillah\"."
+      },
+      {
+        "title": "Washing the hands",
+        "detail": "Wash both hands up to the wrists three times. Run water between the fingers (khilal). If wearing a ring, move it so that water reaches underneath."
+      },
+      {
+        "title": "Rinsing the mouth",
+        "detail": "Take water in the right hand and rinse the mouth three times. If not fasting, gargle well to clean the mouth thoroughly. Using a miswak, where possible, is Sunnah."
+      },
+      {
+        "title": "Sniffing water into the nose",
+        "detail": "Take water in the right hand and sniff it into the nose three times, then clean it out with the left hand. If not fasting, let the water reach the soft inner part of the nose."
+      },
+      {
+        "title": "Washing the face",
+        "detail": "Wash the entire face three times — from the hairline on the forehead to below the chin, and from the lobe of one ear to the lobe of the other. If you have a beard, run wet fingers through it (khilal)."
+      },
+      {
+        "title": "Washing the arms up to the elbows",
+        "detail": "First wash the right arm from the fingertips up to and including the elbow three times, then wash the left arm the same way. Do not forget to run water between the fingers."
+      },
+      {
+        "title": "Wiping the head (masah)",
+        "detail": "Wet both hands and wipe the entire head once. Move your palms from the front of the head to the back, then bring them forward again."
+      },
+      {
+        "title": "Wiping the ears (masah)",
+        "detail": "With the same wet hands, wipe the inside of the ears with the index fingers and the outside of the ears with the thumbs."
+      },
+      {
+        "title": "Washing the feet",
+        "detail": "First wash the right foot including the ankle three times, then wash the left foot. Run the little finger of the left hand between the toes."
+      }
+    ],
+    "dua": {
+      "heading": "Dua After Wudu",
+      "context": "The beloved Prophet (ﷺ) said, \"Whoever among you completes Wudu perfectly and then recites (the following dhikr), all eight gates of Paradise are opened for him; he may enter through whichever gate he wishes.\"",
+      "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "pronunciation": "Ash-hadu al la ilaha illallahu wahdahu la sharika lah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
+      "translation": "I bear witness that there is no true god but Allah, alone, without any partner, and I bear witness that Muhammad (ﷺ) is His servant and Messenger.",
+      "reference": "Sahih Muslim 234, Abu Dawud, Ibn Majah",
+      "extra": {
+        "note": "In the narration of Tirmidhi, the following part is also added at the end of this dua:",
+        "arabic": "اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ، وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ",
+        "pronunciation": "Allahummaj 'alni minat-tawwabina, waj'alni minal-mutatahhirin.",
+        "translation": "O Allah! Make me among those who repent often, and make me among those who purify themselves.",
+        "reference": "Mishkat 289"
+      }
+    },
+    "sunnahsHeading": "Sunnahs of Wudu",
+    "sunnahs": [
+      "Starting by saying Bismillah",
+      "Making the intention (niyyah)",
+      "Washing the hands three times",
+      "Using the miswak",
+      "Rinsing the mouth and sniffing water into the nose",
+      "Running fingers through the beard and between the fingers (khilal)",
+      "Washing each limb three times",
+      "Following the correct order (tartib) of the limbs",
+      "Washing each limb before the previous one dries (doing it without pause)",
+      "Starting from the right side"
+    ],
+    "womenNotes": {
+      "heading": "Special Points for Women",
+      "intro": "The method of Wudu is the same for both women and men. However, women should keep a few points in mind:",
+      "items": [
+        {
+          "title": "Wiping the head",
+          "detail": "If the hair is braided or tied up, there is no need to undo it; passing wet hands over the top of the head is sufficient."
+        },
+        {
+          "title": "Nail polish",
+          "detail": "If there is nail polish or anything on the nails that prevents water from reaching them, it must be removed; otherwise the Wudu will not be valid. However, henna colour on the hands does not cause any problem."
+        },
+        {
+          "title": "Rings / bangles",
+          "detail": "If water does not reach underneath a ring or bangle, it must be moved so that water can reach."
+        },
+        {
+          "title": "Makeup",
+          "detail": "If there is a layer of makeup or cream on the face that prevents water from reaching the skin, it must be removed."
+        }
+      ]
+    },
+    "breakers": {
+      "heading": "What Invalidates Wudu",
+      "items": [
+        "Passing urine, stool, or wind",
+        "Blood, pus, or any flowing discharge coming out of the body",
+        "Vomiting a mouthful",
+        "Falling asleep lying down or leaning to one side",
+        "Losing consciousness or becoming intoxicated",
+        "Laughing out loud during prayer"
+      ]
+    },
+    "requiredFor": {
+      "heading": "Acts That Require Wudu",
+      "items": [
+        "Performing Salah (prayer)",
+        "Touching the Mus'haf (the Quran)",
+        "Performing Tawaf of the Kaaba"
+      ]
+    }
   },
   {
     "id": "method",

@@ -8,6 +8,7 @@ const NAV_SECTIONS = [
   {
     key: "prayer",
     path: "/prayer",
+    showAll: false,
     items: [
       { key: "wudu", path: "/prayer/wudu" },
       { key: "method", path: "/prayer/method" },
@@ -47,9 +48,11 @@ const NavMenu = ({ t, className }) => (
         <details>
           <summary>{t(`nav.${section.key}.label`)}</summary>
           <ul className="bg-base-100 rounded-box z-10 w-56 p-2">
-            <li>
-              <Link to={section.path}>{t(`nav.${section.key}.all`)}</Link>
-            </li>
+            {section.showAll !== false && (
+              <li>
+                <Link to={section.path}>{t(`nav.${section.key}.all`)}</Link>
+              </li>
+            )}
             {section.items.map((item) => (
               <li key={item.key}>
                 <Link to={item.path}>{t(`nav.${section.key}.${item.key}`)}</Link>
