@@ -6,7 +6,10 @@ const LanguageToggle = () => {
   const { language, changeLanguage } = useLanguage();
 
   return (
-    <div className="join" aria-label={t("language.toggleLabel")}>
+    <div
+      className="join border-base-content/20 rounded-field border"
+      aria-label={t("language.toggleLabel")}
+    >
       <button
         type="button"
         className={`btn btn-sm join-item ${language === "bn" ? "btn-primary" : "btn-ghost"}`}

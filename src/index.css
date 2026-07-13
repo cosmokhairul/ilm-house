@@ -116,4 +116,12 @@
   [dir="rtl"] {
     font-family: var(--font-arabic);
   }
+
+  .navbar {
+    font-family: var(--font-heading);
+  }
+
+  html:lang(en) .navbar {
+    font-family: var(--font-english);
+  }
 }
